@@ -10,13 +10,13 @@ const MovieCard = (props) => {
               <div className="card h-100">
                 <img
                   className="card-img-top"
-                  src={props.data[i].posterUrl}
+                  src={card.posterUrl}
                   alt="product"
                 />
                 <div className="card-body p-4">
                   <div className="text-center">
-                    <h5 className="fw-bolder">{props.data[i].title}</h5>
-                    <h6 className="fw-bold">({props.data[i].year})</h6>
+                    <h5 className="fw-bolder">{card.title}</h5>
+                    <h6 className="fw-bold">({card.year})</h6>
                   </div>
                 </div>
               </div>
